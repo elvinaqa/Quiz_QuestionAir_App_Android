@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+>
+
+<!--    -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editName"
+        android:layout_alignLeft="@+id/editName"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-67dp"
+        android:layout_marginLeft="-67dp"
+        android:layout_marginTop="56dp"
+        android:text="Question Air!"
+        android:textColor="#000"
+        android:textSize="60sp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:text="@string/start"
+        android:id="@+id/button"
+        android:textSize="30dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignLeft="@+id/editName"
+        android:layout_alignStart="@+id/editName"
+        android:layout_marginBottom="25dp"
+        android:background="#00ff00"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginEnd="107dp"
+        android:ems="10"
+        android:hint="@string/enter_your_name"
+        android:inputType="textPersonName"
+        android:textColor="#df040b"
+        android:layout_marginTop="400dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:text="About"
+        android:id="@+id/button2"
+        android:textSize="30dp"
+        android:layout_marginBottom="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:background="#000"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="227dp"
+        android:layout_height="230dp"
+        android:layout_above="@+id/button"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="157dp"
+        android:padding="2pt"
+        app:srcCompat="@drawable/logo_quiz" />
+
+
+    <!--    <Button-->
+<!--        android:id="@+id/button3"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="22dp"-->
+<!--        android:layout_alignStart="@+id/button"-->
+<!--        android:layout_alignLeft="@+id/button"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="262dp"-->
+<!--        android:layout_marginBottom="13dp"-->
+<!--        android:layout_marginLeft="100dp"-->
+<!--        android:background="#000"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_gravity="center_vertical|center_horizontal"-->
+<!--        android:text="About"-->
+<!--        android:textColor="#ffffff"-->
+<!--        android:textSize="10dp"-->
+<!--        tools:ignore="DuplicateIds"-->
+<!--        />-->
+</RelativeLayout>
